@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .location .city {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .current .temp {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .current .temp span {
+    font-size: 24px;
+  }
+  
+  .current .weather {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .current .hi-low {
+    font-size: 24px;
+    color: #d9dfd7;
+  }
+
+  
+  
+  .cloud {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
